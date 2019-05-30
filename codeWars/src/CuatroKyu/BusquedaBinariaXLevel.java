@@ -25,7 +25,6 @@ public class BusquedaBinariaXLevel {
 		n4.right  = new Node(null,null,13);
 		
 		Node n1 = new Node(n2, n3, 2);
-		
 		System.out.println(treeByLevels(n1));
 		
 	}
