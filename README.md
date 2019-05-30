@@ -1,2 +1,2 @@
 # EjerciciosCodeWars
-Algunos ejercicios resueltos de codeWars
+Ejercicios resueltos de la página codeWars https://www.codewars.com/dashboard
