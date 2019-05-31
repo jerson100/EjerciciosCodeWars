@@ -3,7 +3,7 @@ package CuatroKyu;
 import java.util.Arrays;
 
 public class Simplificado {
-	
+	/*By Jerson Ramírez Ortiz*/
 	static class Monomio implements Comparable<Monomio>{		
 		private String signo;
 		private int coeficiente;
