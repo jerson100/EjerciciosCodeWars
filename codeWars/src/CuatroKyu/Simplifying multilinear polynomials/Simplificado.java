@@ -36,7 +36,7 @@ public class Simplificado {
 		public Monomio sumar(Monomio m) {
 			Monomio mR = new Monomio();
 			int coeficiente = Integer.parseInt(m.signo+""+m.coeficiente) +
-							  Integer.parseInt(this.signo+""+this.coeficiente);
+					  Integer.parseInt(this.signo+""+this.coeficiente);
 			String signo  = "+",variable = m.variable;
 			if(coeficiente==0) {
 				variable = "";
@@ -47,9 +47,9 @@ public class Simplificado {
 			}
 			mR.signo = signo;
 			mR.coeficiente = Integer
-							.parseInt(String
-							.valueOf(coeficiente)
-							.replaceAll("\\+|\\-",""));
+					.parseInt(String
+					.valueOf(coeficiente)
+					.replaceAll("\\+|\\-",""));
 			mR.variable = variable;
 			return mR;
 		}
@@ -71,9 +71,9 @@ public class Simplificado {
 	public static String simplify(String polinomio){
 		
 		int longitud = polinomio.replaceAll("(?=[\\+|\\-])"," ")
-															.trim()
-															.split(" ")
-															.length;
+								.trim()
+								.split(" ")
+								.length;
 		String var="",coe="",signo="",rspt="";
 		char c;
 		Monomio []monomios = new Monomio[longitud];
