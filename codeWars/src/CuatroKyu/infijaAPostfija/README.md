@@ -1,10 +1,11 @@
-Construct a function that, when given a string containing an expression in infix notation, will return an identical expression in postfix notation.
+Construya una función que, cuando se le asigne una cadena que contenga una expresión en notación de infijo, devolverá una expresión idéntica en notación de postfijo.
 
-The operators used will be +, -, *, /, and ^ with standard precedence rules and left-associativity of all operators but ^.
+Los operadores utilizados serán +, -, *, /, y ^con reglas de prioridad estándar y asociatividad izquierda de todos los operadores, pero ^.
 
-The operands will be single-digit integers between 0 and 9, inclusive.
+Los operandos serán enteros de un solo dígito entre 0 y 9, inclusive.
 
-Parentheses may be included in the input, and are guaranteed to be in correct pairs.
+Los paréntesis pueden incluirse en la entrada y se garantiza que están en pares correctos.
+
 ````
 **toPostfix("2+7*5");** // Should return "275*+"
 
@@ -12,4 +13,5 @@ Parentheses may be included in the input, and are guaranteed to be in correct pa
 
 **toPostfix("5+(6-2)*9+3^(7-1)");** // Should return "562-9*+371-^+"
 ````
-You may read more about postfix notation, also called Reverse Polish notation, here: http://en.wikipedia.org/wiki/Reverse_Polish_notation
+
+Puede leer más sobre la notación postfix, también llamada notación polaca inversa, aquí: http://en.wikipedia.org/wiki/Reverse_Polish_notation
